@@ -27,16 +27,16 @@ public class Train{
   public void empty(){
     for(int i=0;i<seating.length;i++)
     {
-        seating[i] = null;
+      seating[i] = null;
     }
   }
 
   public int passCount(){
     int count = 0;
     for (Passenger passenger : seating) {
-    if(passenger != null) {
-      count += 1;
-    }
+      if(passenger != null) {
+        count += 1;
+      }
     }
     return count;
   }
