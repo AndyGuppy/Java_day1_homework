@@ -33,7 +33,7 @@ assertEquals(0,train.passCount());
 
 @Test
 public void  fullafter30(){
-  for(int i = 0 ; i < 30; i++) {
+  for(int i = 0 ; i < 40; i++) {
         train.board(pass);
      }
      assertEquals(true,train.isFull());
